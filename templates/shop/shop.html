@@ -29,7 +29,7 @@
                 <div class="row g-4">
                     <!-- Product Gallery -->
                     <div class="col-md-6 lightbox-gallery">
-                        <img src="{% static '/img/shop/product-x-1.jpg'%}" class="img-fluid" alt="Product Image">
+                        <img src="{% static 'img/shop/product-x-1.jpg'%}" class="img-fluid" alt="Product Image">
                     </div>
                     <!-- End Product Gallery -->
                     <!-- Product Details -->
@@ -100,7 +100,7 @@
                     <!-- Logo -->
                 </div>
                 <div class="col-lg-6 d-lg-block collapse h-search" id="header_06_search">
-                    <form action="shop.html" method="GET">
+                    <form action="{% url 'shop' %}" method="GET">
                         <!-- Search input -->
                         <input class="form-control" type="text" name="search" placeholder="검색어를 입력해주세요.">
                         <!-- Search button -->
@@ -134,7 +134,7 @@
                         </div>
                         <div class="col-lg-6 my-2">
                             <ol class="breadcrumb m-0 small justify-content-center justify-content-lg-end">
-                                <li class="breadcrumb-item"><a class="text-nowrap text-reset" href="../home/index.html"><i class="bi bi-home"></i>홈</a></li>
+                                <li class="breadcrumb-item"><a class="text-nowrap text-reset" href="{% url 'index'%}"><i class="bi bi-home"></i>홈</a></li>
                                 <li class="breadcrumb-item text-nowrap active" aria-current="page">제품</li>
                             </ol>
                         </div>
@@ -873,7 +873,7 @@
                                             </div>
                                             <div class="product-media">
                                                 <a href="{% url 'product_details' %}">
-                                                    <img class="img-fluid" src="{% static '/img/shop3/product-11.jpg'%}" title="" alt="">
+                                                    <img class="img-fluid" src="{% static 'img/shop3/product-11.jpg'%}" title="" alt="">
                                                 </a>
                                             </div>
                                         </div>
