@@ -107,7 +107,3 @@
 1. [Detection of spam reviews: a sentiment analysis approach](https://doi.org/10.1007/s11356-019-06744-w)
 2. [How to spot fake reviews](https://www.wired.com/story/how-to-spot-fake-reviews-amazon/)
 3. [Amazon's actions against fake reviews](https://www.aboutamazon.com/news/policy-news-views/amazons-latest-actions-against-fake-review-brokers-2023)
-
----
-
-💡 **프로젝트 "봄이"는 소비자와 기업 모두를 위한 혁신적인 리뷰 요약 및 분석 도구로 자리 잡을 것입니다!**
